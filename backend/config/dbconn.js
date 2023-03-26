@@ -1,5 +1,5 @@
 const mongoose =require("mongoose");
-//mongoose.connect('mongodb://username:password@host:port/database?options...');
+
 mongoose.set('strictQuery', false);
 mongoose.connect("mongodb://127.0.0.1:27017/gji",{
    // useCreateIndex:true,
