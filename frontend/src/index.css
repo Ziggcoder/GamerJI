@@ -1,0 +1,140 @@
+* {
+margin:0;
+padding:0;
+box-sizing: border-box;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: 500;
+}
+/*for hidding scroll bar but keep functionality  for IE,Edge , firefox*/
+body{
+-ms-overflow-style: none;
+scrollbar-width: none;
+min-width: 700px;
+}
+/*for hidding scroll bar but keep functionality  for Chrome, Safari and Opera*/
+body::-webkit-scrollbar{
+  display: none; 
+}
+.root {
+  width: 100vw;
+  min-height: 100vh;
+  max-height: fit-content;
+  display: flex;
+  flex-flow: column;
+  
+}
+.header {
+  height: 10vh;
+  width: inherit;
+  background-color: rgb(22, 22, 22);
+  display: flex;
+  justify-content: space-between;
+  padding-top:5px;
+  padding-bottom: 5px;
+}
+.logo{
+  width: 50px;
+  height: 50px;
+}
+.headercontent {
+  background-color: rgb(22, 22, 22);
+  color: white;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section {
+  max-height:fit-content;
+  min-height: 87vh;
+  width: inherit;
+  display:flex; 
+}
+.navbar-btn{
+display: flex;
+justify-content: center;
+align-items: center ;
+width: 85px;
+height: 85px;
+margin-left: 10px;
+}
+.crossbutton{
+  display: flex;
+  justify-content:end;
+  align-items: center ;
+  width:inherit;
+}
+.navbar-icon{
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0);
+  padding:9px;
+  border-radius: 4px;
+}
+.navbar-icon:hover {
+  /* background-color:rgb(146, 146, 146); */
+  color: rgb(158, 158, 158);
+}
+.sidenavbar {
+   /* old nav bar */
+  background-color: #282828;
+  width: 13%;
+ 
+  
+  
+} 
+.footer {
+  height: 3vh;
+  width: inherit;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logout-btn {
+  background-color: rgb(180, 180, 180);
+  color: rgb(0, 0, 0);
+  border: 0px;
+  font-size: 1em;
+  align-self: center;
+  justify-self: center;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.container{
+  background-color: rgb(189, 189, 189);
+  width: 100%;
+  height:inherit;
+}
+.container>div{
+background-color: rgb(255, 255, 255);
+margin:12px;
+margin-bottom: 20px;
+padding:10px 10px 10px 10px;
+box-shadow: 2px 2px 20px 1px black;
+
+}
+
+/* 
+datalist {
+  position: absolute;
+ 
+  border: 0 none;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+datalist option{
+  font-size: 0.8em;
+ 
+  background-color: rgb(41, 41, 41);
+  cursor: pointer;
+}
+
+ active option styling 
+datalist option:hover, datalist option:focus {
+  color: #fff;
+  background-color: #036;
+  outline: 0 none;
+} */

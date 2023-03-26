@@ -1,0 +1,588 @@
+/* LOGIN CSS : LOGIN COMPONENT  */
+
+.loginbody{
+  
+  padding:0;
+  margin:0;
+  height: 100vh;
+  width: 100vw;
+ background-color: #3a3939;
+}
+.loginbox{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width:350px;
+  min-height:180px;
+  background:white;
+  border-radius: 15px;
+  padding:50px;
+  box-sizing: border-box;
+  
+}
+.cicon{
+  margin: 0 auto;
+  display: block;
+  margin-bottom:15px;
+ 
+ 
+}
+h3{
+  margin: 0;
+  padding: 0 0 20px;
+  color: #262626;
+  text-align: center;
+}
+
+.loginbox input{
+  width:100%;
+  padding:5px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  
+}
+.loginbox input[type="email"],
+.loginbox input[type="password"]
+{
+  border: none;
+  border-bottom: 2px solid #262626;
+  outline: none;
+  height: 40px;
+  color: #262626;
+ 
+  font-size: 16px;
+  padding-left: 0px;
+  box-sizing: border-box;
+  
+}
+.loginbox input[type="email"]:focus,
+.loginbox input[type="password"]:focus
+{
+  border-bottom: 2px solid black;
+}
+.inputdiv{
+  position: relative;
+}
+.loginbox input[type="submit"]{
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  height: 40px;
+  font-size: 16px;
+  background: rgb(10, 10, 10);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  
+
+}
+.loginbox input[type="submit"]:hover{
+  background-color: #236723;
+  
+}
+
+.forgot{
+  
+  color: black;
+  margin-left:41px;
+  
+}
+
+/* LOGIN CSS : LOGIN COMPONENT  */
+/* USER MANAGE CSS : ADD NEW USER COMPONENT  */
+/* COMPONENT CONTATINER CSS */
+.add-user-container{
+  display: flex;
+  flex-flow: column;
+ padding:20px !important;
+  /* background-color: aquamarine; */
+ 
+}
+/* COMPONENT CONTATINER CSS */
+/* COMPONENT MAIN HEADING CSS */
+.componet-title{
+color: black;
+font-size: 1.5em;
+font-weight: bold;
+
+}
+
+/* COMPONENT MAIN HEADING CSS */
+/* COMPONENT MAIN SUB-HEADING CSS */
+.componet-sub-title{
+  color: black;
+  font-size: 1.2em;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  padding:5px;
+  margin-top: 10px;
+  }
+  .componet-sub2-title{
+    color: black;
+    font-size: 1em;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    padding:5px;
+    }
+/* COMPONENT MAIN SUB-HEADING CSS */
+/* COMMMON FLEX CSS*/
+.flex-row{
+  display: flex;
+  flex-flow:column;
+  flex-wrap: wrap;
+}
+
+.flex-col{
+  display: flex;
+  flex-flow:row;
+  flex-wrap: wrap;
+
+}
+.flex-space-bt{
+  justify-content: space-between;
+  align-content: center;
+
+}
+/* COMMMON FLEX CSS*/
+
+.form-2col-ver{
+/* background-color: aquamarine; */
+justify-content:space-around;
+flex-wrap: wrap;
+margin-left: 20px;
+padding-bottom: 20px;
+margin-bottom: 30px;
+}
+.sub-div,
+.form-2col-ver>div{
+  max-width:95%;
+  min-width:713px;
+/* background-color: aqua; */
+justify-content: space-around;
+margin-top:20px;
+margin-left:10px;
+flex-wrap: wrap;
+}
+
+ /* form left and right div */
+.form-2col-ver>div>div{  
+  /* background-color: blue; */
+  min-width: 40%;
+  flex-wrap: wrap;
+
+}
+
+.table-data-per-page>input{
+  font-size:0.8em;
+font-weight: bold;
+font-size: 13px;
+line-height: 1.5;
+padding: 5px 10px;
+transition: box-shadow 100ms ease-in, border 100ms ease-in, background-color 100ms ease-in;
+border: 2px solid #dee1e2;
+color: rgb(14, 14, 16);
+background: #dee1e2;
+display: block;
+height: 30px;
+margin:0px 10px 0px 5px ;
+/* width for input fields */
+width: 70px; 
+}
+.red-text{
+  color:red
+}
+.green-text{
+  color:green
+}
+
+ /* input and lable - horizontal div */
+.input-lable-h-div{
+/* background-color: red; */
+display:flex !important;
+flex-flow: row !important;
+justify-content:space-between !important;
+max-width:444px;
+margin:5px;
+flex-wrap: wrap;
+
+}
+.input-lable-v-div{
+  /* background-color: red; */
+  display:flex;
+  flex-flow: column;
+  justify-content:start;
+  align-items:flex-start;
+  margin:5px;
+  padding: 5px;
+  flex-wrap: wrap;
+  }
+.input-lable-v-div>label{
+color: black;
+font-size:0.9em;
+font-weight: bold;
+margin-left:5px;
+  }
+  .input-lable-h-div>input,
+.input-lable-h-div>textarea,
+.input-lable-h-div>select,
+
+
+  .input-lable-v-div>input,
+  .input-lable-v-div>textarea,
+  .input-lable-v-div>select
+  {
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 5px 10px;
+    transition: box-shadow 100ms ease-in, border 100ms ease-in, background-color 100ms ease-in;
+    border: 2px solid #dee1e2;
+    color: rgb(14, 14, 16);
+    background: #dee1e2;
+    display: block;
+    height: 30px;
+    margin-left:5px;
+    /* width for input fields */
+    width: 230px; 
+
+   }
+    .input-lable-h-div>input:hover,
+.input-lable-h-div>textarea:hover,
+.input-lable-h-div>select:hover,
+  .input-lable-v-div>input:hover,
+  .input-lable-v-div>textarea:hover,
+  .input-lable-v-div>select:hover {
+    border-color: rgb(91, 91, 91);
+  }
+  .input-lable-h-div>input:focus,
+  .input-lable-h-div>textarea:focus,
+  .input-lable-h-div>select:focus,
+    .input-lable-v-div>input:focus,
+    .input-lable-v-div>textarea:focus,
+    .input-lable-v-div>select:focus{
+    border-color: #9147ff;
+    background: #fff;
+  }
+.input-lable-h-div>label
+{
+color: black;
+font-size:0.9em;
+font-weight: bold;
+}
+
+
+.sub-route-div{
+  background-color: rgb(221, 221, 221) !important; 
+
+}
+
+.subroute-btn{
+  background-color: rgb(112, 223, 97);
+  color: rgb(0, 0, 0);
+  margin-left: 2px;
+  padding: 10px;
+  border:0px;
+  transition: transform .2s;
+  border-radius: 2px;
+  cursor: pointer;
+}
+/* changed by sharan*/
+.subroute-btn:hover{
+background-color: rgb(72, 255, 0);
+transform: scale(1.1);
+}
+.submit-btn{
+  background-color: black;
+  color: rgb(255, 255, 255);
+  border: 0px;
+  margin-left:15px;
+  margin-top: 15px;
+  align-self: center;
+  justify-self: center;
+  padding: 10px;
+  min-width: 80px;
+  max-width: 99px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* changed by sharan */
+.submit-btn:hover{
+  background-color: #287e2e;
+}
+
+/* List user CSS : List USER COMPONENT  */
+.option-btn{
+/* background-color: #3a3939; */
+padding:10px;
+display: flex;
+flex-flow: row;
+justify-content: flex-start;
+
+}
+.option-btn>button,
+.option-btn>div{
+  margin: 5px;
+}
+.option-btn>button
+{
+  background-color: black;
+  color: white;
+  border: 0px;
+  align-self: center;
+  justify-self: center;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.option-btn>button:hover{
+  background-color: green;
+}
+.justi-spacebt{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.table-page-nav-btn{
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.table-page-nav-btn>button
+{
+  background-color: black;
+  color: white;
+  border: 0px;
+  height: 30px;
+  width: 30px;
+  margin: 0px 5px 0px 5px; 
+  border-radius: 50px;
+  cursor: pointer;
+}
+.table-page-nav-btn>span
+{
+  
+  margin: 0px 10px 0px 10px; 
+ 
+ 
+}
+
+.form-submit-button{
+  /* background-color: #3a3939; */
+  padding:10px;
+  display: flex !important;
+  flex-flow: row !important;
+  justify-content: flex-end !important;
+  width: 100%;
+  
+  }
+.form-submit-button>button,
+.form-submit-button>div{
+  margin: 5px;
+}
+.form-submit-button>button
+{
+  background-color: black;
+  color: white;
+  border: 0px;
+  align-self: center !important;
+  justify-self: center !important;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
+
+.table_container-div{
+
+margin-top: 20px;
+
+}
+.table_container-div>table{
+  border: 1px solid black;
+  width: 100%;
+  
+}
+.table_container-div>table>tbody>tr:nth-child(even){
+  background-color: #dddddd;
+}
+.table_container-div>table>tbody>tr>th{
+  border-bottom: solid 1px rgb(60, 60, 60);
+  
+}
+
+.table_container-div>table>tbody>tr>td
+{ 
+
+  text-align:center;
+  }
+  /* changed by sharan */
+  .table_container-div>table>tbody>tr>th{
+    font-weight: bold;
+  }
+.table_container-div>table>tbody>tr>td>button{
+  background-color: black;
+  color: white;
+  border: 0px;
+
+  padding: 5px;
+  min-width: 80px;
+  max-width: 99px;
+  border-radius: 5px;
+  margin: 3px 7px;
+}
+
+/* new css Changed by Sharan */
+.table_containernew-div{
+
+  margin-top: 25px;
+  width:fit-content;
+ overflow-x: scroll;
+
+  }
+  .table_containernew-div>table{
+    border: 2px solid black;
+   
+  }
+  .table_containernew-div>table>tbody>tr:nth-child(even){
+    background-color: #dddddd;
+  }
+  .table_containernew-div>table>tbody>tr>th{
+    border-bottom: solid 1px rgb(60, 60, 60);
+    text-align:left;
+   
+  }
+  .table_containernew-div>table>tbody>tr{
+    border-bottom: solid 1px rgb(60, 60, 60);
+    text-align:left;
+   
+  }
+  
+  .table_containernew-div>table>tbody>tr>td
+   
+  { 
+  
+    text-align:left;
+background-color: rgb(182, 182, 246);
+     padding:10px;
+
+    }
+    /*b changed by sharan */
+    .table_containernew-div>table>tbody>tr>th{
+      font-weight: bold;
+     }
+
+  .table_containernew-div>table>tbody>tr>td>button{
+    background-color: black;
+    color: white;
+    border: 0px;
+  
+    padding: 5px;
+    min-width: 80px;
+    max-width: 99px;
+    border-radius: 5px;
+    margin: 3px 7px;
+  }
+  .table_containernew-div>table>tbody>tr>td>input {
+   padding:6px;
+   border-radius: 5px;
+   background-color: #b6dbf9;    
+   font-size:20px;
+  
+  }
+
+  #f1f0f0
+
+
+.input-lable-checkbox-div{
+ 
+  margin:5px;
+  padding: 5px;
+  
+}
+.input-lable-checkbox-div>label{
+  color: black;
+  font-size:0.9em;
+  font-weight: bold;
+  margin-left:5px;
+    }
+    .input-lable-checkbox-div>input{
+      margin-left:10px;
+    }
+    .input-lable-checkbox-div>div>label{
+      color: black;
+      font-size:0.9em;
+      font-weight: bold;
+      margin-left:5px;
+     }
+.input-lable-checkbox-div>div{
+margin-left: 100px ;
+}
+
+/* List user CSS : List USER COMPONENT  */
+
+
+/* General manage css added by sharan */
+/* country manage css */
+.general-manage-div>input,
+.general-manage-div>select
+{
+  margin:20px;
+  transition: box-shadow 100ms ease-in, border 100ms ease-in, background-color 100ms ease-in;
+  border-radius: 4px; 
+  background: #dee1e2;
+  border:2px solid #dee1e2 ;
+  font-size: 14px;
+  line-height: 1.5;
+   margin-left:45px;
+   width: 200px; 
+}
+.general-manage-div>input:focus
+{
+  background: #fff;
+}
+
+.upload-download-btn{
+  /* background-color: #262626; */
+  padding: 10px;
+  padding-left: 16px;
+  display: flex;
+  flex-flow: row;
+  cursor: pointer;
+  }
+  
+  .upload-download-btn>button{
+    background-color: black;
+    color: white;
+    border: 0px;
+    align-self: center;
+    justify-self: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+  }
+
+  /* created by Sharan for Back button */
+ .headingdiv{
+  display: flex;
+flex-flow: row;
+justify-content: space-between;
+
+ }
+ .headingdiv>div>button{
+  background-color: rgb(10, 88, 223);
+  color: white;
+  padding: 6px;
+  border-radius: 5px;
+  cursor: pointer;
+ }
+ .headingdiv>div>button:hover{
+  background-color: rgb(40, 87, 226);
+  color: rgb(21, 13, 13);
+ }
